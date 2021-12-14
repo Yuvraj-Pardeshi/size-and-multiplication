@@ -1,0 +1,29 @@
+/Size
+
+#include<iostream>
+using namespace std;
+
+int main()
+{
+    cout<<"Size of int is "<<sizeof(int)<<endl;
+    cout<<"Size of int is "<<sizeof(float)<<endl;
+    cout<<"Size of int is "<<sizeof(char)<<endl;
+    cout<<"Size of int is "<<sizeof(double)<<endl;
+    return 0;
+}
+
+
+
+//Multilication
+
+#include<iostream>
+using namespace std;
+
+int main()
+{
+    float a,b;
+    cout<<"Enter two numbers"<<endl;
+    cin>>a>>b;
+    cout<<"Multiplication is "<<a*b<<endl;
+    return 0;
+}
